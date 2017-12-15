@@ -1,4 +1,4 @@
-#hallo
+#hallo world
 """
 Django settings for ideas project.
 
