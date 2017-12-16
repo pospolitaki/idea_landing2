@@ -27,7 +27,7 @@ SECRET_KEY = '*y9%n8n=1^a%el9iti-y!&3r5%1y5lv*yzay!hzy#y&69yxt9-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ideya.herokuapp.com/']
+ALLOWED_HOSTS = ['ideya.herokuapp.com']
 
 
 # Application definition
