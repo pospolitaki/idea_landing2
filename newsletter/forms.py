@@ -12,9 +12,7 @@ class JoinForm(forms.ModelForm):
     
     def clean_email(self, *args, **kwargs):
         email = self.cleaned_data.get('email') 
-        print(email)
         qs = Join.objects.filter(email__iexact=email)
         if qs.exists():
-            print('exists')
             raise forms.ValidationError('This email already exists')
         return email
