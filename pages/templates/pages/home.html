@@ -51,21 +51,42 @@
     
           <div class="container">
             <!-- Example row of columns -->
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>Join us</h2>
                     <p>
-                      <form method="POST" action=""> {% csrf_token %}
-                          {{form.as_p}}
-                        <input type="submit" value="Join" class="btn btn-default" />
-                        </form>
-                      </p>
+                    {% comment %} <form method="POST" action=""> {% csrf_token %}
+                    {{form.as_p}} 
+                    <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" class="form-control">
+                    <span class="input-group-btn">
+                    <input type="submit" value="Join" class="btn btn-default" />
+                    </span>
+                    </div>
+                    </form> {% endcomment %}
+                    <form class='join-form form-inline text-center' method='POST' action=''>{% csrf_token %}
+                        <div class='alert alert-danger alert-dismissable join-form-alert' style='display:none'> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <span class='join-form-error'></span>
+                        </div>
+                        <div class='input-group'>
+                        <label style='padding: 0px 20px;font-size: 20px;'>
+                        Join Us
+                        </label>
+                        </div>
+                            <div class="input-group">
+                    
+                             <input type='email' name='email' class='form-control sign-up-email-form' placeholder="Your email...">
+                             <div class='input-group-addon' style="background-color: #fff; border-left:0px;">
+                                <i class='fa fa-envelope'></i>
+                             </div>
+                              
+                            </div><!-- /input-group -->
+                        <input type='submit' value='Join' class='btn btn-primary' />
+                    </form>
+                    </p>
                 </div>
-            </div>
+            </div></div>
+          </div>
             
               
                     {% comment %} <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkoB3n71DDpOiw85gaZyu5oQhvUSlj4XzVOjklFVUL7bYA7g/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> {% endcomment %}
-            </div>
             <div class="container">
               {{ page_obj.content|safe }}
             </div>
