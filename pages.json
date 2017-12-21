@@ -1,0 +1,24 @@
+[
+{
+    "model": "pages.page",
+    "pk": 1,
+    "fields": {
+        "title": "\u0399\u0394\u0395\u03a5\u0391 project",
+        "title_description": "Welcome and join us!",
+        "title_btn": "Join",
+        "title_btn_url": "",
+        "content": "<div class=\"row\">\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n        </div>"
+    }
+},
+{
+    "model": "pages.page",
+    "pk": 2,
+    "fields": {
+        "title": "Kirill's CV",
+        "title_description": "Hallo, guys! Here you can look through my CV",
+        "title_btn": "Join",
+        "title_btn_url": "",
+        "content": "<div class=\"row\">\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <h2>Heading</h2>\r\n            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\r\n            <p><a class=\"btn btn-secondary\" href=\"#\" role=\"button\">View details &raquo;</a></p>\r\n          </div>\r\n        </div>"
+    }
+}
+]
